@@ -18,6 +18,15 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('lib/assets/images/Mischa2_2.jpg'),
                 backgroundColor: Colors.red,
               ),
+              Text(
+                'Mischa Haenen',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontFamily: 'Pacifico',
+                  fontSize: 40.0,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
             ],
           ),
         ),
